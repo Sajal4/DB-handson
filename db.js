@@ -1,7 +1,7 @@
 const employeeArr = require("./employee.json");
 const mongoClient = require('mongodb').MongoClient;
 
-const connectionString = "mongodb://127.0.0.1:27017/mongo";
+const connectionString = "mongodb://127.0.0.1:27017/";
 
 mongoClient.connect(connectionString, async (err, db) => {
     if(err) {
