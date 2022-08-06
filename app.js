@@ -310,5 +310,3 @@ findWithTwoConditions();
 updateWithSalary();
 
 deleteWithLastCompany();
-
-app.listen(4000);
